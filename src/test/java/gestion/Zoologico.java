@@ -1,6 +1,7 @@
 package gestion;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Zoologico {
 	private String ubicacion;
@@ -33,7 +34,7 @@ public class Zoologico {
 	}
 	public int cantidadTotalAnimales() {
 		for (int i=0; i<zonas.size();i++) {
-			sumaAnimalesZonas += zonas.get(i).cantidadAnimales();
+			sumaAnimalesZonas += zonas.get(i).cantidadAnimal();
 		}
 		return sumaAnimalesZonas;
 	}

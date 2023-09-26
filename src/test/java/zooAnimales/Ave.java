@@ -32,12 +32,12 @@ public class Ave extends Animal{
 		return "volar";
 	}
 	public static Ave crearHalcon(String nombre, int edad, String genero) {
-		Anfibio halcon = new Ave(nombre, edad, "montanas", genero, "cafe glorioso");
+		Ave halcon = new Ave(nombre, edad, "montanas", genero, "cafe glorioso");
 		halcones++;
 		return halcon;
 	}
 	public static Ave  crearAguila(String nombre, int edad, String genero) {
-		Anfibio aguila = new Anfibio(nombre, edad, "selva", genero, "blanco y amarilo");
+		Ave aguila = new Ave (nombre, edad, "selva", genero, "blanco y amarilo");
 		aguilas++;
 		return aguila;
 	}

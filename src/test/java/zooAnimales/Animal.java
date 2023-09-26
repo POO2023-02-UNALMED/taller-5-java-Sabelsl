@@ -1,6 +1,11 @@
 package zooAnimales;
 
 import java.util.ArrayList;
+import java.util.List;
+
+import gestion.Zona;
+import gestion.Zoologico;
+
 
 public class Animal {
 	public static int totalAnimales = 0;
@@ -58,17 +63,21 @@ public class Animal {
 		return "desplazarse";
 	}
 	public static String totalPorTipo() {
-		return "Mamiferos: " + Mamifero.cantidadMamiferos() + "\nAve: " + Ave.cantidadAves()+"\nReptiles: " + 
-				"\nPeces: " + Pez.cantidadPeces()+ "\nAnfibios: "+Anfibio.cantidadAnfibios();
+		return "Mamiferos: " + Mamifero.cantidadMamifero() + "\nAve: " + Ave.cantidadAves()+"\nReptiles: " + Reptil.cantidadReptiles()+
+				"\nPeces: " + Pez.cantidadPez()+ "\nAnfibios: "+Anfibio.cantidadAnfibios();
 	}
 
 	public String toString() {
-		if (zoo = null) {
+		if (zoo == null) {
 			return "Mi nombre es "+nombre+", tengo una edad de "+edad+", habito en "+habitat+" y mi genero es "+genero;
 		}
 		else {
-			return "Mi nombre es "+nombre+", tengo una edad de "+edad+", habito en "+habitat+" y mi genero es "+genero+
+			return "Mi nombre es "+nombre+", tengo una edad de "+edad+", habito en "+habitat+" y mi genero es "+genero+", la zona en la que me ubico es "+zona+", en el "+zoo;
 		}
 	}
-	
+
+	public String movimiento() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
