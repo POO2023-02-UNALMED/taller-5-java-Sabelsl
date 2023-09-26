@@ -30,7 +30,7 @@ public class Zona {
 	public void setZoo(Zoologico zoo) {
 		Zona.zoo = zoo;
 	}
-	public static Zoologico getzoo() {
+	public static Zoologico getZoo() {
 		return zoo;
 	}
 	public void agregarAnimales(Animal animal) {
