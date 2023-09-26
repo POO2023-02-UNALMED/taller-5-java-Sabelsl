@@ -36,7 +36,6 @@ public class Anfibio extends Animal {
 		return listado.size();
 	}
 	@Override
-	
 	public String movimiento() {
 		return "saltar";
 	}
