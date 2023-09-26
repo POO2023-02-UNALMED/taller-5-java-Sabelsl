@@ -59,7 +59,7 @@ public class Animal {
 	public String getGenero() {
 		return genero;
 	}
-	public String Movimiento() {
+	public String movimiento() {
 		return "desplazarse";
 	}
 	public static String totalPorTipo() {
@@ -74,11 +74,6 @@ public class Animal {
 		else {
 			return "Mi nombre es "+nombre+", tengo una edad de "+edad+", habito en "+habitat+" y mi genero es "+genero+", la zona en la que me ubico es "+zona+", en el zoo"+Zona.getZoo();
 		}
-	}
-
-	public String movimiento() {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 }
