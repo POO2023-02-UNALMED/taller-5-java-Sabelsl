@@ -28,7 +28,7 @@ public class Mamifero extends Animal{
 	public void setPatas(int patas) {
 		this.patas = patas;
 	}
-	public int isPatas() {
+	public int getPatas() {
 		return patas;
 	}
 	public static int cantidadMamiferos() {
