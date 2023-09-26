@@ -32,7 +32,7 @@ public class Pez extends Animal{
 		return cantidadAletas;
 	}
 	
-	public static int cantidadPez() {
+	public static int cantidadPeces() {
 		return listado.size();
 	}
 	

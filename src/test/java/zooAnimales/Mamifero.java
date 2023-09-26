@@ -31,7 +31,7 @@ public class Mamifero extends Animal{
 	public int isPatas() {
 		return patas;
 	}
-	public static int cantidadMamifero() {
+	public static int cantidadMamiferos() {
 		return listado.size();
 	}
 	public static Mamifero crearLeon(String nombre, int edad, String genero) {

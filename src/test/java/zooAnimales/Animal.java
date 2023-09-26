@@ -63,8 +63,8 @@ public class Animal {
 		return "desplazarse";
 	}
 	public static String totalPorTipo() {
-		return "Mamiferos: " + Mamifero.cantidadMamifero() + "\nAve: " + Ave.cantidadAves()+"\nReptiles: " + Reptil.cantidadReptiles()+
-				"\nPeces: " + Pez.cantidadPez()+ "\nAnfibios: "+Anfibio.cantidadAnfibios();
+		return "Mamiferos: " + Mamifero.cantidadMamiferos() + "\nAve: " + Ave.cantidadAves()+"\nReptiles: " + Reptil.cantidadReptiles()+
+				"\nPeces: " + Pez.cantidadPeces()+ "\nAnfibios: "+Anfibio.cantidadAnfibios();
 	}
 
 	public String toString() {
@@ -80,4 +80,5 @@ public class Animal {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
 }
